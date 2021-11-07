@@ -16,6 +16,8 @@ export default createGlobalStyle`
     figure, figcaption, footer, header, hgroup, 
     menu, nav, output, ruby, section, summary,
     time, mark, audio, video {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
