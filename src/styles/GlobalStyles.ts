@@ -20,7 +20,7 @@ export default createGlobalStyle`
         padding: 0;
         border: 0;
         font-size: 100%;
-        font: inherit;
+        font-family: 'Roboto', sans-serif;
         vertical-align: baseline;
     }
 
@@ -53,4 +53,8 @@ export default createGlobalStyle`
         border-collapse: collapse;
         border-spacing: 0;
     } 
+
+    button {
+        cursor: pointer;
+    }
 `;
