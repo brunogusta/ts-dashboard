@@ -6,7 +6,7 @@ import Footer from "../Footer";
 
 import { GridTemplate } from "./styles";
 
-const Layout: React.FC = () => {
+const Layout = () => {
   return (
     <GridTemplate>
       <Aside />
